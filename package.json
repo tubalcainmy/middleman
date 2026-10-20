@@ -1,0 +1,16 @@
+{
+  "name": "middleman",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Payment protection for Nigerian social commerce: seller deal links, held payments, delivery PIN, disputes.",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "dev": "node --no-warnings --watch src/server.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
